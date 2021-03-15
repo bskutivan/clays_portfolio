@@ -53,3 +53,21 @@ body {
     background-color: var(--accent-color);
     color: var(--primary-color);
 }
+
+/* portfolio styles */
+
+.wrapper {
+    height: 325px;
+    border: 1px solid var(--primary-color);
+    display: flex;
+    overflow-x: auto;
+}
+
+.wrapper .card{
+    min-width: 350px;
+    max-height: 325px;
+    line-height: 25px;
+    text-align: center;
+    background-color: #ddd;
+    margin: 2px;
+}
